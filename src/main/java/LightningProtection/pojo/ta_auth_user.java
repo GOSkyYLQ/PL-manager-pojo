@@ -14,24 +14,24 @@ public class ta_auth_user {
     private Integer enable_status;
     private Date create_time;
     private Date last_edit_time;
-    private String real_name;
-    private String mobile;
+    //private String real_name;
+    //private String mobile;
 
-    public String getReal_name() {
-        return real_name;
-    }
+//    public String getReal_name() {
+//        return real_name;
+//    }
 
-    public void setReal_name(String real_name) {
-        this.real_name = real_name ==null ? null : real_name.trim();
-    }
+//    public void setReal_name(String real_name) {
+//        this.real_name = real_name ==null ? null : real_name.trim();
+//    }
 
-    public String getMobile() {
-        return mobile;
-    }
+//    public String getMobile() {
+//        return mobile;
+//    }
 
-    public void setMobile(String mobile) {
-        this.mobile = mobile = mobile == null ? null : mobile.trim();
-    }
+//    public void setMobile(String mobile) {
+//        this.mobile = mobile = mobile == null ? null : mobile.trim();
+//    }
 
 
 
