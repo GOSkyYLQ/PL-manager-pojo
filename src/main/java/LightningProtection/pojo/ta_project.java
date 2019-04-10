@@ -3,7 +3,7 @@ package LightningProtection.pojo;
 import java.util.Date;
 
 public class ta_project {
-    private int id;
+    private Long id;
     private String pro_name;
     private String pro_header;
     private String hea_mobile;
@@ -16,12 +16,12 @@ public class ta_project {
     public void setPro_name(String pro_name) {
         this.pro_name = pro_name == null ? null : pro_name.trim();
     }
-    public int getPro_id() {
+    public Long getId() {
         return id;
     }
 
-    public void setPro_id(int pro_id) {
-        this.id = pro_id;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getPro_header() {
