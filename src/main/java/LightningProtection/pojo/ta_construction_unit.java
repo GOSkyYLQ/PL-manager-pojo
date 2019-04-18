@@ -73,7 +73,7 @@ public class ta_construction_unit {
         return hea;
     }
 
-    public void setHea(String head) {
+    public void setHea(String hea) {
         this.hea = hea;
     }
 
@@ -84,8 +84,5 @@ public class ta_construction_unit {
     public void setHea_mobile(String head_mobile) {
         this.hea_mobile = head_mobile;
     }
-
-
-
 
 }
