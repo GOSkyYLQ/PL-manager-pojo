@@ -434,6 +434,65 @@ public class ta_projectExample {
             addCriterion("create_time not between", value1, value2, "create_time");
             return (Criteria) this;
         }
+        public Criteria andPro_budgetIsNull() {
+            addCriterion("pro_budget is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetIsNotNull() {
+            addCriterion("pro_budget is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetEqualTo(Date value) {
+            addCriterion("pro_budget =", value, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetNotEqualTo(Date value) {
+            addCriterion("pro_budget <>", value, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetGreaterThan(Date value) {
+            addCriterion("pro_budget>", value, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetGreaterThanOrEqualTo(Date value) {
+            addCriterion("pro_budget >=", value, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetLessThan(Date value) {
+            addCriterion("pro_budget <", value, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetLessThanOrEqualTo(Date value) {
+            addCriterion("pro_budget <=", value, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetIn(List<Date> values) {
+            addCriterion("pro_budget in", values, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetNotIn(List<Date> values) {
+            addCriterion("pro_budget not in", values, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetBetween(Date value1, Date value2) {
+            addCriterion("pro_budget between", value1, value2, "pro_budget");
+            return (Criteria) this;
+        }
+
+        public Criteria andPro_budgetNotBetween(Date value1, Date value2) {
+            addCriterion("pro_budget not between", value1, value2, "pro_budget");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {

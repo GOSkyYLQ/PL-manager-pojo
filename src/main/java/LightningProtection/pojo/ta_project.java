@@ -7,6 +7,7 @@ public class ta_project {
     private String pro_name;
     private String pro_header;
     private String hea_mobile;
+    private String pro_budget;
     private Date create_time;
 
 
@@ -46,5 +47,13 @@ public class ta_project {
 
     public void setCreate_time(Date create_time) {
         this.create_time = create_time;
+    }
+
+    public String getPro_budget() {
+        return pro_budget;
+    }
+
+    public void setPro_budget(String pro_budget) {
+        this.pro_budget = pro_budget = pro_budget == null? null : pro_budget.trim();
     }
 }
