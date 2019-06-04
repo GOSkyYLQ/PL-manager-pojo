@@ -8,8 +8,16 @@ public class ta_project {
     private String pro_header;
     private String hea_mobile;
     private String pro_budget;
-    private Date create_time;
+    private String create_time;
+    private String pro_status;
 
+    public String getPro_status() {
+        return pro_status;
+    }
+
+    public void setPro_status(String pro_status) {
+        this.pro_status = pro_status;
+    }
 
     public String getPro_name() {
         return pro_name;
@@ -41,11 +49,11 @@ public class ta_project {
         this.hea_mobile = hea_mobile == null ? null : hea_mobile.trim();
     }
 
-    public Date getCreate_time() {
+    public String getCreate_time() {
         return create_time;
     }
 
-    public void setCreate_time(Date create_time) {
+    public void setCreate_time(String create_time) {
         this.create_time = create_time;
     }
 
